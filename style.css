@@ -1,4 +1,80 @@
 h1 { 
-    align-content: center;
-    color: purple;
+    font-size: larger;
+    font-style: italic;
+    text-align: center;
+    color:darksalmon;
   }
+
+  body {
+    margin: 0;
+    flex: 0 1 auto;
+    align-self: auto;
+    width: 100%;
+    max-width: 900px;
+    height: 100%;
+    max-height: 600px;
+    border-width:medium;
+    border-style: ridge;
+    border-color:midnightblue;
+    padding-bottom: 8px;
+  }
+
+.Item {
+    font-size: larger;
+    padding-top: 5px;
+    font-style: italic;
+    text-align: center;
+    color:dodgerblue;
+    border:blueviolet;
+    border-width: 2px;
+}
+
+.Item:hover {
+    color:tomato;
+    text-shadow: 300px 0px 2px #C486CE;
+    
+}
+input {
+        margin: auto;
+        width: 500px;
+        text-align: center;
+        padding: 8px;
+        font-size: 16px;
+        border-width: 2px;
+        border-color: #e91616;
+        background-color: #10d3ec;
+        color: #e91616;
+        border-style: solid;
+        border-radius: 24px;
+        box-shadow: -3px 5px 8px rgba(14,14,14,.75);
+        text-shadow: 6px 8px 5px rgba(66,66,66,.50);
+   }
+    .css-input:focus {
+        outline:none;
+   }
+.button {
+    border-color: blueviolet;
+    background-color: aqua;
+    color:orangered;
+    border-width: 6px;
+    border-radius: 24px;
+}
+
+.button:hover {
+    color:crimson;
+    background-color:chartreuse;
+    border-color: lightpink;
+}
+
+input:hover {
+    color:fuchsia;
+    background-color:chartreuse;
+    border-color: lightpink;
+    font-family: cursive;
+}
+
+body:hover {
+    border-width:thick;
+    border-style:solid;
+    border-color: hotpink;
+}
